@@ -2,12 +2,13 @@ print "I will now count my chickens:"
 
 # Adds 25 to 30, then divides it by 6
 print "Hens", 25 + 30 / 6
-# Substracts 25 from 100, then times the result by 3
-print "Roosters", 100 - 25 * 3 % 4
+
+# Subtract the remainder of 25 * 3 % 4 from 100
+print "Roosters", 100 - 25 * 3
 
 print "Now I will count the eggs:"
 
-print 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
+print 3 + 2 + 1 - 5 + 4 % 2 - 1.0 / 4 + 6
 
 print "Is it true that 3 + 2 < 5 - 7?"
 
